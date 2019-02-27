@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EllipsizeTextView">
+        <attr name="ellipsis_text" format="string" />
+        <attr name="ellipsis_textColor" format="reference|color" />
+        <attr name="max_line" format="integer" />
+    </declare-styleable>
+</resources>
