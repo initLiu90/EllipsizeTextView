@@ -16,7 +16,9 @@ public class EllipsisSpan extends ClickableSpan {
 
     @Override
     public void onClick(View widget) {
-        listener.onClick(widget);
+        if (listener != null) {
+            listener.onClick(widget);
+        }
     }
 
     @Override
