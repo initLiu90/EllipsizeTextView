@@ -3,6 +3,7 @@
     <declare-styleable name="EllipsizeTextView">
         <attr name="ellipsis_text" format="string" />
         <attr name="ellipsis_textColor" format="reference|color" />
+        <attr name="ellipsis_backgroundColor" format="reference|color" />
         <attr name="max_line" format="integer" />
     </declare-styleable>
 </resources>

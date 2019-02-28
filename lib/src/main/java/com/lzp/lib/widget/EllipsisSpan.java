@@ -1,5 +1,6 @@
 package com.lzp.lib.widget;
 
+import android.graphics.Color;
 import android.text.TextPaint;
 import android.text.style.ClickableSpan;
 import android.view.View;

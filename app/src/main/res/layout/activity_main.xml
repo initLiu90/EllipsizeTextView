@@ -10,9 +10,11 @@
         android:id="@+id/txt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="123456789qwertyuiopasdfghjklzxcvbnm9876543210mnbvcxzlkjhgfdsapoiuytrewq"
+        android:ellipsize="end"
+        android:text="123456789qwertyuiopasdfghjklzxcvbnm9876543210mnbvcxzlkjhgfdsapoiuytrewq123456789qwertyuiopasdfghjklzxcvbnm9876543210mnbvcxzlkjhgfdsapoiuytrewq123456789qwertyuiopasdfghjklzxcvbnm9876543210mnbvcxzlkjhgfdsapoiuytrewq123456789qwertyuiopasdfghjklzxcvbnm9876543210mnbvcxzlkjhgfdsapoiuytrewq123456789qwertyuiopasdfghjklzxcvbnm9876543210mnbvcxzlkjhgfdsapoiuytrewq123456789qwertyuiopasdfghjklzxcvbnm9876543210mnbvcxzlkjhgfdsapoiuytrewq123456789qwertyuiopasdfghjklzxcvbnm9876543210mnbvcxzlkjhgfdsapoiuytrewq"
+        android:textSize="30dp"
         app:ellipsis_text="...全文"
-        app:ellipsis_textColor="@android:color/holo_red_dark"
-        app:max_line="1" />
+        app:ellipsis_textColor="@color/colorAccent"
+        app:max_line="3" />
 
 </LinearLayout>
